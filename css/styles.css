@@ -2,10 +2,9 @@
 body {
   max-width: 375px;
   margin: auto;
-  background: #e3be4a;
+  background: #e3bd4a87;
 	font-family: noka, sans-serif;
 	color: white;
-  padding: 25px;
 }
 
 img {
@@ -13,12 +12,37 @@ img {
   max-width: 100%;
 }
 
-h1{
-	padding: 20px;
+h1 {
+	padding: 30px;
+  margin:0;
 }
 
-h2{
+h2 {
 	font-family: marigny, sans-serif;
+}
+
+
+.intro,
+.art,
+.skate,
+.music,
+.food,
+footer{
+  padding: 25px;
+}
+
+.art,
+.music,
+footer,
+.box-titel,
+.link{
+  background: #e3bd4a;
+}
+
+.intro,
+.skate,
+.food {
+  background-color: black;
 }
 
 .wrapper {
@@ -29,6 +53,8 @@ h2{
 	display: flex;
 	align-items: center;
 	padding: 0;
+  background-color: black;
+  padding-bottom: 20px;
 }
 
 .wrapper:before, .wrapper:after {
