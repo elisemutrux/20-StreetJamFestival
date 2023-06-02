@@ -5,6 +5,7 @@ body {
   background: #e3bd4a87;
 	font-family: noka, sans-serif;
 	color: white;
+  font-size: 16px;
 }
 
 img {
@@ -19,6 +20,12 @@ h1 {
 
 h2 {
 	font-family: marigny, sans-serif;
+  font-size: 27px;
+  margin:5px 0 5px 0;
+}
+
+ul {
+  list-style-image: url(../img/fleche.svg);
 }
 
 .intro,
