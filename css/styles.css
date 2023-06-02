@@ -1,10 +1,67 @@
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
-  background: #ddd;
+  background: #e3be4a;
+	font-family: noka, sans-serif;
+	color: white;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.wrapper {
+	height: 225px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+.wrapper:before, .wrapper:after {
+	content: "";
+	position: absolute;
+	height: 225px;
+	width: 225px;
+	z-index: 2;
+}
+
+.wrapper:after {
+	right: 0;
+	top: 0;
+	transform: rotateZ(180deg);
+}
+
+.wrapper:before {
+	left: 0;
+	top: 0;
+}
+
+.wrapper .track {
+	display: flex;
+	width: calc(450px * 5);
+	animation: scroll 20s 0s alternate linear infinite;
+}
+
+.wrapper .img-skate {
+	height: 380px;
+  width: 380px;
+}
+
+.wrapper .img-skate img {
+	height: 380px;
+  width: 380px;
+  overflow: clip;
+}
+
+@keyframes  scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-380px * 4));
+	}
 }
