@@ -11,6 +11,10 @@ body {
   font-size: 16px;
 }
 
+.art img{
+  border-radius: 5px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -163,7 +167,7 @@ footer,
 .wrapper .track {
 	display: flex;
 	width: calc(450px * 5);
-	animation: scroll 20s alternate infinite linear;
+	animation: scroll 20s infinite linear;
 }
 
 .wrapper .img-skate {
