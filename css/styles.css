@@ -26,9 +26,10 @@ h1 {
 }
 
 h2 {
-	font-family: marigny, sans-serif;
+	font-family: "marigny", sans-serif;
+  font-style: italic;
   font-size: 27px;
-  margin:5px 0 5px 0;
+  margin: 5px 0 5px 0;
 }
 
 .link {
@@ -44,7 +45,8 @@ a {
   padding: 0 7px;
   padding-bottom: 20px;
   font-size: 17px;
-  font-family: marigny, sans-serif;
+  font-family: "marigny", sans-serif;
+  font-style: italic;
 }
 
 ul {
