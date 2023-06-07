@@ -58,16 +58,24 @@ ul {
   list-style-position: outside;
 }
 
+ul li{
+  padding-bottom: 15px;
+}
+
 .email {
   text-align:end;
   margin-bottom: 0;
+}
+
+.food{
+  padding: 25px;
+  padding-bottom: 10px;
 }
 
 .intro,
 .art,
 .skate,
 .music,
-.food,
 footer{
   padding: 25px;
 }
